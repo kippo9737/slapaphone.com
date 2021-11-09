@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem; 
+    color: rgb(255, 255, 255);
+}
+
+
+.Slap-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   background-image: linear-gradient(black,rgb(255, 255, 255)
+   ) ;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+    justify-content: center;
+}
